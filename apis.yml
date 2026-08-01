@@ -1,8 +1,26 @@
 aid: playhouse
 name: playhouse
-description: playhouse is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Playhouse is a consumer real estate application that combines homes-for-sale
+  listings with community polls and reactions. Home searchers, neighbors, homebuyers,
+  investors, and real estate professionals browse luxury and residential listings and
+  react to them, turning property discovery into a social, opinion-driven experience.
+  The product ships as native iOS and Android apps backed by a private api.playhouse.so
+  service; there is no publicly documented developer API, SDK, OpenAPI, or API reference
+  surface. Playhouse is a 500 Global portfolio company. This profile was enriched from
+  live probes of its Webflow marketing site, app-store listings, and DNS/TLS records.
 url: https://raw.githubusercontent.com/api-evangelist/playhouse/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/60ef56e34e4542367317fbc4/63c1be80935f5db4f2a97dc0_screen_new.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Real Estate
+- PropTech
+- Mobile App
+- Consumer
+- Listings
+- Polls
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://playhouse.so
+- type: TermsOfService
+  url: https://www.playhouse.so/legal/terms
+- type: PrivacyPolicy
+  url: https://www.playhouse.so/legal/privacy
+- type: AppStore
+  url: https://apps.apple.com/us/app/playhouse-real-estate/id1574401703
+- type: GooglePlay
+  url: https://play.google.com/store/apps/details?id=com.playhouse
+- type: DomainSecurity
+  url: security/playhouse-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
