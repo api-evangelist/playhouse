@@ -43,7 +43,7 @@ created: '2026-07-17'
 modified: '2026-07-20'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - PropTech
 - Mobile App
 - Consumer
@@ -57,6 +57,7 @@ tags_raw:
 - Consumer
 - Listings
 - Polls
+- Real-Estate
 apis: []
 maintainers:
 - FN: Kin Lane
